@@ -8,5 +8,5 @@ def map(array)
   result
 end
 
-def reduce
+def reduce(array)
 end
