@@ -9,7 +9,6 @@ def map(array)
 end
 
 def reduce(array, s=nil)
-
   i = 0 
   total = 0 
   if s 
