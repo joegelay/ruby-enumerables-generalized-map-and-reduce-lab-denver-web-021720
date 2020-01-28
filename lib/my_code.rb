@@ -13,6 +13,7 @@ def reduce(array, s=nil)
   total = 0 
   if s 
     total = s
+    i = 0 
   end 
   while i < array.length do 
     total = yield(total, array[i])
