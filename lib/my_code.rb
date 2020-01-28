@@ -12,7 +12,7 @@ def reduce(array, s=nil)
 
   i = 0 
   total = 0 
-    if s 
+  if s 
     total = s
   end 
   while i < array.length do 
