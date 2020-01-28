@@ -8,7 +8,7 @@ def map(array)
   result
 end
 
-def reduce(array)
+def reduce(array, s)
   i = 0 
   total = 0 
   while i < array.length do 
