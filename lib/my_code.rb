@@ -9,5 +9,6 @@ def map(array)
 end
 
 def reduce(array)
-  
+  i = 0 
+  total = 0 
 end
