@@ -9,11 +9,12 @@ def map(array)
 end
 
 def reduce(array, s=nil)
-  if s 
-    total = s
-  end 
+
   i = 0 
   total = 0 
+    if s 
+    total = s
+  end 
   while i < array.length do 
     total += array[i]
     i += 1
